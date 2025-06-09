@@ -10,11 +10,10 @@
     "name": "Haze",
     "email": "haze.gpg@proton.me"
   },
-  "Info": {
-    "companyName": "Its-Haze",
-    "productName": "League Client Events",
+  "info": {
+    "productName": "LCU Events",
     "productVersion": "1.0.0",
-    "comments": "League Client Events",
+    "comments": "LCU Events",
     "legalCopyright": "Copyright 2025 Its-Haze"
   }
 }

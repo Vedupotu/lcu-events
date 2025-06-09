@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/appicon.png" alt="LCU-Events" width="120"/>
+  <img src="assets/appicon.png" alt="LCU-Events" width="120"/>
   <h1>LCU Events</h1>
   <p>
     <strong>A powerful desktop application for real-time League Client event monitoring</strong>
@@ -20,7 +20,7 @@ LCU Events is a high-performance desktop application that provides real-time mon
 ## ✨ Features
 
 <div align="center">
-  <img src="docs/demo.gif" alt="LCU Event GUI Demo" width="600"/>
+  <img src="assets/demo.gif" alt="LCU Event GUI Demo" width="600"/>
 </div>
 
 ### Core Capabilities
@@ -138,9 +138,8 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 If you encounter any issues or have questions, please:
 
-1. Check the [documentation](docs/)
-2. Search [existing issues](https://github.com/its-haze/lcu-events/issues)
-3. Create a new issue if needed
+1. Search [existing issues](https://github.com/its-haze/lcu-events/issues)
+2. Create a new issue if needed
 
 ## 🙏 Acknowledgments
 
