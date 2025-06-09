@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="build/appicon.png" alt="LCU-Events" width="120"/>
+  <img src="docs/appicon.png" alt="LCU-Events" width="120"/>
   <h1>LCU Events</h1>
   <p>
     <strong>A powerful desktop application for real-time League Client event monitoring</strong>
