@@ -1,0 +1,31 @@
+# Node
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn.lock
+dist/
+
+# Wails
+frontend/dist/
+frontend/.wailsjs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Env
+.env
+.env.*
+
+# Build
+build/
+
+# Misc
+*.local
+.idea/
