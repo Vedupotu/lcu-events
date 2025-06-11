@@ -35,11 +35,7 @@ LCU Events is a high-performance desktop application that provides real-time mon
 ## 🛠️ Tech Stack
 
 ### Frontend
-<img src="https://img.shields.io/badge/React-18+-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 18+"/>
-<img src="https://img.shields.io/badge/TypeScript-4+-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/TailwindCSS-3+-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/>
-<img src="https://img.shields.io/badge/React_Query-4+-FF4154?style=flat-square&logo=react-query&logoColor=white" alt="React Query"/>
-<img src="https://img.shields.io/badge/WebSocket-000000?style=flat-square&logo=websocket&logoColor=white" alt="WebSocket"/>
+<img src="https://img.shields.io/badge/React-18+-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 18+"/> <img src="https://img.shields.io/badge/TypeScript-4+-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/TailwindCSS-3+-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/> <img src="https://img.shields.io/badge/React_Query-4+-FF4154?style=flat-square&logo=react-query&logoColor=white" alt="React Query"/> <img src="https://img.shields.io/badge/WebSocket-000000?style=flat-square&logo=websocket&logoColor=white" alt="WebSocket"/>
 
 - React 18+ with TypeScript
 - TailwindCSS for modern styling
@@ -48,11 +44,7 @@ LCU Events is a high-performance desktop application that provides real-time mon
 - Responsive design with CSS Grid/Flexbox
 
 ### Backend
-<img src="https://img.shields.io/badge/Go-1.18+-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go 1.18+"/>
-<img src="https://img.shields.io/badge/LCU--gopher-Latest-1E1E2E?style=flat-square" alt="LCU-gopher"/>
-<img src="https://img.shields.io/badge/Wails-2+-1E1E2E?style=flat-square&logo=go&logoColor=white" alt="Wails"/>
-<img src="https://img.shields.io/badge/WebSocket-000000?style=flat-square&logo=websocket&logoColor=white" alt="WebSocket"/>
-<img src="https://img.shields.io/badge/Goroutines-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Goroutines"/>
+<img src="https://img.shields.io/badge/Go-1.18+-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go 1.18+"/> <img src="https://img.shields.io/badge/LCU--gopher-Latest-1E1E2E?style=flat-square" alt="LCU-gopher"/> <img src="https://img.shields.io/badge/Wails-2+-1E1E2E?style=flat-square&logo=go&logoColor=white" alt="Wails"/> <img src="https://img.shields.io/badge/WebSocket-000000?style=flat-square&logo=websocket&logoColor=white" alt="WebSocket"/> <img src="https://img.shields.io/badge/Goroutines-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Goroutines"/>
 
 - Go 1.18+ for high performance
 - [LCU-gopher](https://github.com/its-haze/lcu-gopher) for LCU API integration
@@ -72,10 +64,7 @@ LCU Events is a high-performance desktop application that provides real-time mon
 ## 🚀 Development
 
 ### Prerequisites
-<img src="https://img.shields.io/badge/Go-1.18+-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go 1.18+"/>
-<img src="https://img.shields.io/badge/Node.js-16+-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-<img src="https://img.shields.io/badge/NSIS-3+-1E1E2E?style=flat-square&logo=windows&logoColor=white" alt="NSIS"/>
-<img src="https://img.shields.io/badge/Wails-CLI-1E1E2E?style=flat-square&logo=go&logoColor=white" alt="Wails CLI"/>
+<img src="https://img.shields.io/badge/Go-1.18+-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go 1.18+"/> <img src="https://img.shields.io/badge/Node.js-16+-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/NSIS-3+-1E1E2E?style=flat-square&logo=windows&logoColor=white" alt="NSIS"/> <img src="https://img.shields.io/badge/Wails-CLI-1E1E2E?style=flat-square&logo=go&logoColor=white" alt="Wails CLI"/>
 
 - Go 1.18+
 - Node.js 16+
