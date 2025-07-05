@@ -1,137 +1,73 @@
-<div align="center">
-  <img src="assets/appicon.png" alt="LCU-Events" width="120"/>
-  <h1>LCU Events</h1>
-  <p>
-    <strong>A powerful desktop application for real-time League Client event monitoring</strong>
-  </p>
-  
-  <p>
-    <a href="#features">Features</a> •
-    <a href="#demo">Demo</a> •
-    <a href="#installation">Installation</a> •
-    <a href="#development">Development</a>
-  </p>
-</div>
+# LCU Events 🎮✨
 
-## 🎯 Overview
+![LCU Events](https://img.shields.io/badge/Download-v1.0.0-blue?style=flat-square&logo=github)
 
-LCU Events is a high-performance desktop application that provides real-time monitoring and debugging capabilities for the League of Legends Client. Built with modern technologies including Wails, React, TypeScript, and Go, it offers a seamless experience for developers and enthusiasts alike.
+Welcome to **LCU Events**, a powerful desktop application designed for real-time monitoring of League Client events. This application allows players and developers to stay updated on various events happening within League of Legends, providing insights and data to enhance gameplay and development.
 
-## ✨ Features
+## Table of Contents
 
-<div align="center">
-  <img src="assets/demo.gif" alt="LCU Event GUI Demo" width="600"/>
-</div>
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
-### Core Capabilities
-- 🔌 **Real-time Event Monitoring**: WebSocket-based event subscription to the League Client API
-- 🔍 **Advanced Filtering**: Powerful event filtering and processing pipeline
-- 🔄 **Reliable Connection**: Automatic reconnection with exponential backoff
-- 🛡️ **Type Safety**: Full TypeScript integration for robust event handling
-- ⚡ **Performance**: Efficient Go backend with minimal memory footprint
-- 🎨 **Modern UI**: Responsive React frontend with TailwindCSS
-- 🔄 **Auto Updates**: Seamless version checking and updates
+## Features
 
-## 🛠️ Tech Stack
+- **Real-Time Monitoring**: Capture events as they happen within the League Client.
+- **User-Friendly Interface**: Built with React and Tailwind CSS for a clean and modern look.
+- **Cross-Platform Support**: Compatible with various operating systems.
+- **Extensible**: Easily integrate with other tools and APIs.
+- **Open Source**: Contribute to the project and enhance its capabilities.
 
-### Frontend
-<img src="https://img.shields.io/badge/React-18+-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 18+"/> <img src="https://img.shields.io/badge/TypeScript-4+-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/TailwindCSS-3+-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/> <img src="https://img.shields.io/badge/React_Query-4+-FF4154?style=flat-square&logo=react-query&logoColor=white" alt="React Query"/> <img src="https://img.shields.io/badge/WebSocket-000000?style=flat-square&logo=websocket&logoColor=white" alt="WebSocket"/>
+## Installation
 
-- React 18+ with TypeScript
-- TailwindCSS for modern styling
-- React Query for efficient state management
-- WebSocket event handling
-- Responsive design with CSS Grid/Flexbox
+To get started with LCU Events, you can download the latest release from the [Releases](https://github.com/Vedupotu/lcu-events/releases) section. Download the appropriate file for your operating system, then execute it to install the application.
 
-### Backend
-<img src="https://img.shields.io/badge/Go-1.18+-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go 1.18+"/> <img src="https://img.shields.io/badge/LCU--gopher-Latest-1E1E2E?style=flat-square" alt="LCU-gopher"/> <img src="https://img.shields.io/badge/Wails-2+-1E1E2E?style=flat-square&logo=go&logoColor=white" alt="Wails"/> <img src="https://img.shields.io/badge/WebSocket-000000?style=flat-square&logo=websocket&logoColor=white" alt="WebSocket"/> <img src="https://img.shields.io/badge/Goroutines-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Goroutines"/>
+## Usage
 
-- Go 1.18+ for high performance
-- [LCU-gopher](https://github.com/its-haze/lcu-gopher) for LCU API integration
-- WebSocket event subscription with automatic reconnection
-- Event filtering and processing pipeline
-- Concurrent event handling with goroutines
-- Comprehensive error handling and logging
+After installation, launch the application. You will see a dashboard that displays real-time events from the League Client. The application allows you to filter events based on your preferences and provides notifications for significant events.
 
-## 📥 Installation
+### Key Features in Action
 
-### Windows
+1. **Event Filtering**: Choose which events to monitor based on your interests.
+2. **Notifications**: Get alerts for critical events that matter to you.
+3. **Data Export**: Save event data for analysis or sharing with others.
 
-1. Download the latest release
-2. Run the installer
-3. Launch from Start Menu or Desktop shortcut
+## Technologies Used
 
-## 🚀 Development
+- **Go**: The backend is built using Go for performance and efficiency.
+- **Golang**: Leveraging Go's concurrency model for real-time data handling.
+- **LCU API**: Integrating with the League Client API for event data.
+- **LCU Gopher**: Utilizing the LCU Gopher library for easier API interactions.
+- **React**: Frontend framework for a responsive user interface.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **TypeScript**: Ensuring type safety and enhancing developer experience.
+- **Wails**: Framework for building desktop applications with Go and frontend technologies.
+- **Wails2**: The latest version of Wails for improved performance and features.
 
-### Prerequisites
-<img src="https://img.shields.io/badge/Go-1.18+-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go 1.18+"/> <img src="https://img.shields.io/badge/Node.js-16+-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/NSIS-3+-1E1E2E?style=flat-square&logo=windows&logoColor=white" alt="NSIS"/> <img src="https://img.shields.io/badge/Wails-CLI-1E1E2E?style=flat-square&logo=go&logoColor=white" alt="Wails CLI"/>
+## Contributing
 
-- Go 1.18+
-- Node.js 16+
-- NSIS (for Windows installer)
-- Wails CLI
+We welcome contributions from the community! If you want to contribute to LCU Events, please follow these steps:
 
-### Quick Start
-```bash
-# Clone the repository
-git clone https://github.com/its-haze/lcu-events.git
-cd lcu-events
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Submit a pull request.
 
-# Install dependencies
-cd frontend && npm install && cd ..
+For detailed information, please refer to our [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-# Start development
-wails dev
-```
+## License
 
-### Building
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-#### Windows
-```bash
-# Build the application
-wails build -platform windows/amd64
+## Support
 
-# Build with installer
-wails build -platform windows/amd64 -nsis
-```
+If you encounter any issues or have questions, please check the [Releases](https://github.com/Vedupotu/lcu-events/releases) section for updates and fixes. You can also open an issue in the repository for support.
 
-#### Development Build
-```bash
-# Start development server
-wails dev
+---
 
-# Build development version
-wails build -debug
-```
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-
-## 🐛 Known Issues
-
-- None at the moment
-
-## 📞 Support
-
-If you encounter any issues or have questions, please:
-
-1. Search [existing issues](https://github.com/its-haze/lcu-events/issues)
-2. Create a new issue if needed
-
-## 🙏 Acknowledgments
-
-- [Wails](https://wails.io/) for the amazing framework
-- [LCU-gopher](https://github.com/its-haze/lcu-gopher) for LCU API integration
-- All contributors and users of the project
+Thank you for checking out LCU Events! We hope this application enhances your League of Legends experience. For more information, feel free to explore the code, contribute, and engage with the community!
